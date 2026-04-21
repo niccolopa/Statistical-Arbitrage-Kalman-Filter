@@ -27,7 +27,7 @@ The initial In-Sample vectorized backtest yielded an exceptionally smooth equity
 * **The Gross Profit Illusion:** The model measured theoretical spread points, ignoring transaction costs.
 
 ### In-Sample Training (Gross Equity)
-![In-Sample Equity]<img width="1156" height="624" alt="01_training_data_In-Sample" src="https://github.com/user-attachments/assets/c5d048e9-4a9b-4b2d-856b-e4a350360be0" />
+<img width="1156" height="624" alt="01_training_data_In-Sample" src="https://github.com/user-attachments/assets/c5d048e9-4a9b-4b2d-856b-e4a350360be0" />
 
 
 **The Blind Test (OOS) & Market Friction Injection:**
@@ -36,7 +36,7 @@ To validate the alpha, the exact parameters ($\Delta = 1e-5$, Lookback = 500) we
 The strategy survived the friction, retaining approximately 72% of its gross profit, confirming that the identified market inefficiency was genuine and tradable.
 
 ### Out-of-Sample Blind Test (Net vs Gross)
-![Net vs Gross]<img width="1165" height="624" alt="02_Net_vs_Gross_Out-ofSample" src="https://github.com/user-attachments/assets/785a7919-6b1e-4203-a593-5a955dad53ff" />
+<img width="1165" height="624" alt="02_Net_vs_Gross_Out-ofSample" src="https://github.com/user-attachments/assets/785a7919-6b1e-4203-a593-5a955dad53ff" />
 
 
 ## 4. Risk Management & Proprietary Firm Compliance
@@ -46,13 +46,13 @@ Institutional trading prioritizes capital preservation over maximum yield. The s
 * **The Correction:** By scaling risk down to 0.25 lots (Asymmetric Compounding), the total drawdown was compressed to a safe -7.82%.
 
 ### Institutional Money Management
-![Money Management]<img width="1389" height="989" alt="03_Money_Management" src="https://github.com/user-attachments/assets/236d3fa8-63cf-44ea-8344-1f09382ca765" />
+<img width="1389" height="989" alt="03_Money_Management" src="https://github.com/user-attachments/assets/236d3fa8-63cf-44ea-8344-1f09382ca765" />
 
 
 * **Forensic Daily Drawdown Analysis:** I conducted a daily forensic analysis of the account balance. The worst single-day drawdown recorded was -4.00% (Jan 27, 2026). The algorithm never breached the 5% daily failure threshold.
 
 ### Daily Drawdown Forensic Analysis
-![Daily Drawdown]<img width="1232" height="547" alt="04_Daily_Drawdown_Test" src="https://github.com/user-attachments/assets/bd1c0fd2-0d63-40f6-a4fb-fc72b90ed48b" />
+<img width="1232" height="547" alt="04_Daily_Drawdown_Test" src="https://github.com/user-attachments/assets/bd1c0fd2-0d63-40f6-a4fb-fc72b90ed48b" />
 
 
 ## 5. Production Engineering (v12.2)
