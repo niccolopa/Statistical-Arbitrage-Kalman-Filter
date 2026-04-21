@@ -63,6 +63,7 @@ Transitioning from a vectorized Jupyter environment to live execution requires f
 * **Initial Capital:** 10,000.00 USD
 * **Final Net Equity:** 12,160.55 USD
 * **Net ROI:** +21.61%
+* **Total Trading Costs (Friction):** ~840.12 USD
 * **Max Total Drawdown:** -7.82%
 * **Max Daily Drawdown:** -4.00%
 * **Total Executions:** 84 Round Trips
