@@ -73,7 +73,7 @@ Transitioning from a vectorized Jupyter environment to live execution requires f
 * **Total Executions:** 84 Round Trips
 
 ## 7. Acknowledgments & AI Assistance
-Transparency is a core principle of quantitative research. The architecture, mathematical modeling, and codebase of this project were developed in collaboration with Google's Gemini (specifically, the Gemini 3.1 Pro model) acting as an advanced pair-programmer and research assistant. The AI was instrumental in structuring the vectorized backtesting environment, refactoring the production code for stateful memory management, and formatting this documentation.
+In my opinion, the transparency is a core principle of quantitative research. The architecture, mathematical modeling, and codebase of this project were developed in collaboration with Google's Gemini (specifically, the Gemini 3.1 Pro model) acting as an advanced pair-programmer and research assistant. The AI was instrumental in structuring the vectorized backtesting environment, refactoring the production code for stateful memory management, and formatting this documentation.
 
 ## Further Research
 Future iterations will focus on Orthogonal Diversification. By deploying this logic across multiple uncorrelated cointegrated pairs simultaneously (e.g., AUD/CAD, EUR/GBP), the objective is to compound returns while naturally smoothing the aggregate equity curve through non-correlated drawdown periods.
